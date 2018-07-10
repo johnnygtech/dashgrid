@@ -1,0 +1,4 @@
+[
+    {"name": "service1","status": 1},
+    {"name": "service2", "status": 0}
+]

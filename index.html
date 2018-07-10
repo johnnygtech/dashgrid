@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>server-healthgrid</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script> 
+    </head>
+    <body>
+        <div class="grid-container" id="header">
+            <div class="title">
+                <h1>Server-HealthGrid</h1>
+            </div>
+        </div>
+        <div class="grid-container-navigation">
+            <div class="login"><i class="fas fa-lock"></i></div>
+            <div class="settings"><i class="fas fa-cogs"></i></div>
+            <div class="add"><i class="fas fa-plus"></i></div>
+            <div class="add"><i class="fas fa-minus"></i></div>
+        </div>
+        <div class="grid-container-services" id="main-services">
+            <div class="service">
+                gitlab.com
+            </div>
+            <div class="service" id="goodservice">
+                google.com
+            </div>
+            <div class="service" id="badservice">
+                amazon.com
+            </div>
+            <div class="service" id="goodservice">
+                bing.com
+            </div>
+        </div>
+        <script src='app.js'></script>
+    </body>
+</html>

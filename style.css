@@ -1,0 +1,58 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'title';
+    grid-gap: 10px;
+    background-color: #181818;
+    padding: 10px;
+  }
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 0px;
+    font-size: 15px;
+  }
+
+  .grid-container-navigation {
+    display: grid;
+    grid-template-areas:
+      'login settings blank blank blank blank blank blank blank blank';
+    grid-gap: 10px;
+    background-color: #181818;
+    padding: 10px;
+  }
+  .grid-container-navigation > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  .grid-container-services {
+    display: grid;
+    grid-template-areas:
+      'service service service service';
+    /*grid-template-columns: 80px 80px 80px 80px;*/
+
+    grid-gap: 10px;
+    background-color: #181818;
+    padding: 10px;
+  }
+  .grid-container-services > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  #badservice {
+      background-color: red;
+  }
+
+  #goodservice {
+      background-color: lime;
+  }
+
+  #blank {
+      background-color: #181818;
+  }
